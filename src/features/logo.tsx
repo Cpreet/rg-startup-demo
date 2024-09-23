@@ -1,7 +1,11 @@
+import logo from "../assets/top-logo.png";
+
 const Logo = () => {
-  return <div>
-    RG Startup
-  </div>
+  return (
+    <div>
+      <img src={logo} />
+    </div>
+  )
 }
 
 export default Logo;
