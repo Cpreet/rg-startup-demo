@@ -1,7 +1,10 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Header from "./features/header"
 import Hero from "./features/hero";
+//@ts-expect-error-nocheck
 import { HorizontalTicker } from "react-infinite-ticker";
+import FeatureSection from "./features/feature-section";
+import Footer from "./features/footer";
 
 function App() {
   const skills = [
@@ -48,6 +51,8 @@ function App() {
           )
         }
       </HorizontalTicker>
+      <FeatureSection />
+      <Footer />
     </>
   )
 }

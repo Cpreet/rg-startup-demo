@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import peopleWorking from "../assets/undraw_Engineering_team_a7n2.png";
 
 const Hero = () => {
@@ -10,6 +11,7 @@ const Hero = () => {
         <div className="text-xl">
           Simplifying development throught <strong>project based</strong> tutoring
         </div>
+        <Button className="w-40 my-20">Join RG Startup</Button>
       </div>
       <img src={peopleWorking} />
     </div>
